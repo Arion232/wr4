@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-image:  linear-gradient(rgba(168, 141, 141, 0.9), rgba(0, 0, 0, 0.9));
+    background-size: center;
+    
+    
+    /* background-attachment: fixed; */
+}
+#main{
+    background-attachment: fixed;
+    background-color: rgb(250, 245, 245);
+    float: left;
+    width:100%;
+    
+}
+.container{
+    width: 1300px;
+    
+    margin: auto;
+
+}
+.logo{
+    width: 30%;
+     float: left;
+     /* background-color: teal */
+}
+.menu{
+    width: 60%;
+    float: left;
+    /* background-color:thistle */
+
+}
+ul li {
+    display: inline;
+    margin: 10 px;
+    padding: 15px;
+    
+    
+}
+ul li a{
+    color: rosybrown;
+    text-decoration: none;
+
+}
+
+
+}
+.search{
+    width: 10%;
+    float: left;
+    /* background-color: red; */
+    
+
+}
+img{
+    width: 150px;
+}
+/* <!-- Hero Party --> */
+#hero{
+    width: 100%;
+
+}
+.mainpart{
+    width: 50%;
+    float: left;
+
+}
+h1{
+    text-align: center;
+    font-size: 250%;
+    
+    text-decoration: none;
+}
+
+
+
+
+
+
+.imgpart{
+    /* background-image:  linear-gradient(rgba(168, 141, 141, 0.5), rgba(0, 0, 0, 0.5)); */
+    width: 50%;
+    float: left;
+
+}
+.v1{
+    width: 1000px;
+}
+.buton{
+    position: absolute;
+    font-size: 20px;
+
+}
+a.btn{
+    color: rgb(41, 223, 111);
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 12px;
+}
+a.btn:hover{
+    color: rgba(105, 87, 223, 0.932);
+    background-color: #f3d9d9;
+}
